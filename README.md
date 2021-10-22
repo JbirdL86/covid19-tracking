@@ -5,7 +5,7 @@ Designed by: [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio
 
 Flags were took from website [https://www.worldometers.info](https://www.worldometers.info)
 
-![screenshot](./src/img/covidApp.png) ![screenshot](./src/img/detailsCovid.png)
+![screenshot](./src/img/covidApp.png)![screenshot](./src/img/detailsCovid.png)
 
 ## Built With
 
