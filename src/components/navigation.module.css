@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #cd4076;
+  color: #fff;
+  padding: 2% 5%;
+}
+
+.arrow {
+  color: #fff;
+}
+
+.icons {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+}
