@@ -1,0 +1,40 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #fff;
+  height: 20vh;
+}
+
+.imageCont {
+  width: 30%;
+}
+
+.image {
+  width: 80%;
+  height: 70%;
+}
+
+.details {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: end;
+}
+
+.details p {
+  margin-top: 10px;
+  justify-self: self-end;
+  font-size: 15px;
+}
+
+.dark {
+  background-color: #cd4076;
+  text-decoration: none;
+}
+
+.light {
+  background-color: #db4681;
+  text-decoration: none;
+}
