@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  background-color: #fb5193;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  color: #fff;
+}
+
+.map {
+  width: 50%;
+}
+
+.total {
+  width: 50%;
+  margin-left: 2%;
+  padding: 2%;
+}
+
+.total > h2 {
+  margin-bottom: 10px;
+}
+
+.filterContainer {
+  background-color: #cd4076;
+  padding: 2%;
+}
+
+.stats {
+  padding: 1%;
+  color: #fff;
+  background-color: #db4681;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
