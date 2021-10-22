@@ -23,7 +23,7 @@ const Details = () => {
           </div>
           <div className={style.details}>
             <h2>{`${countryDetail.name} `}</h2>
-            <p>{numberFormat.format(countryDetail.today_confirmed)}</p>
+            <p data-testid="todayConfirmed">{numberFormat.format(countryDetail.today_confirmed)}</p>
             <p>Currently infected</p>
           </div>
         </div>
@@ -32,7 +32,7 @@ const Details = () => {
             Stats by cities on
             {` ${date}`}
           </h4>
-          <ul className={style.list}>
+          <ul data-testid="cities" className={style.list}>
             {countryDetail.regions.map((region, index) => (
               <li
                 key={region.id}

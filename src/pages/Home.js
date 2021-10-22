@@ -43,7 +43,7 @@ const Home = () => {
         <div className={style.stats}>
           <h4>Stats by country</h4>
         </div>
-        <div className={style.container}>
+        <div id="countries" className={style.container}>
           {Object.values(countries).filter(({ name }) => (
             name.toLowerCase().startsWith(countryFilter.toLowerCase())
           )).map((country, index) => (

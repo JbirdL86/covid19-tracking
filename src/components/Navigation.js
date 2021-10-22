@@ -8,7 +8,7 @@ const Navigation = () => {
   return (
     <header>
       <nav className={style.navBar}>
-        <Link to="/">
+        <Link data-testid="home" to="/">
           { path.pathname !== '/'
             ? (
               <>
