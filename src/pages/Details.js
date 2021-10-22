@@ -32,8 +32,10 @@ const Details = () => {
             Stats by cities on
             {` ${date}`}
           </h4>
-          <ul data-testid="cities" className={style.list}>
-            {countryDetail.regions.map((region, index) => (
+          <ul data-testid="cities" className={countryDetail.regions.length === 0 ? style.list : ''}>
+            {countryDetail.regions.length === 0 ? (
+              <h2>No cities to show</h2>
+            ) : countryDetail.regions.map((region, index) => (
               <li
                 key={region.id}
                 className={([1, 0][index % 2]) === 0 ? style.dark : style.light}
