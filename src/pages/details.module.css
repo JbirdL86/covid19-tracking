@@ -43,6 +43,8 @@
 .list {
   height: 100%;
   background-color: #db4681;
+  text-align: center;
+  padding: 24%;
 }
 
 .dark {

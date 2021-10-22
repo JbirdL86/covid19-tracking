@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# BookStore
+* This project was created using React and Redux, it allows you to keep track of the covid-19 pandemic by country on the current date. You can check information by contry and some countries contain information for its cities. The App contain a easy way to find a country with a search input, it;s a single page aplication that has 2 page components routed by the main App component. The app desing is ment for mobile devices only.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Designed by: [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
 
-## Available Scripts
+Flags were took from website [https://www.worldometers.info](https://www.worldometers.info)
 
-In the project directory, you can run:
+![screenshot](./src/img/covidApp.png)![screenshot](./src/img/detailsCovid.png)
 
-### `yarn start`
+## Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Html, Javascript, CSS
+- Webpack
+- React JS
+- Redux
+- Developed in VSCode
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Link
 
-### `yarn test`
+Get a live preview of the project on this link  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Link: [Live-Preview](https://agitated-pike-942a36.netlify.app/)
 
-### `yarn build`
+## Setup 
+### clone repository
+```bash
+$ git clone git@github.com:JbirdL86/covid19-tracking.git
+```
+### Start Project
+```bash
+$ cd Bookstore 
+-Install node_modules
+-run npm install
+$ npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Author 🤝:
+* Juan Luis Gonzalez 
+- Github: [@githubhandle](https://github.com/JbirdL86)
+- Twitter: [@twitterhandle](https://twitter.com/JuanLui06498455)
+- Linkedin: [linkedin](https://www.linkedin.com/in/juan-luis-0551921aa/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🤝 Contributing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Contributions, issues, and feature requests are welcome!
 
-### `yarn eject`
+## Acknowledgments
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Microverse program ⚡
+- Our standup team 🏹
+- Nelson Sakwa on Behance
