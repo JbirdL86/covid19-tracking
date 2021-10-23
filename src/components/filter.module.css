@@ -1,0 +1,10 @@
+.filterCountry {
+  text-align: center;
+}
+
+.inputFilter {
+  width: 90%;
+  height: 3vh;
+  padding: 1% 2%;
+  font-size: 20px;
+}
