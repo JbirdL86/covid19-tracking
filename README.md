@@ -1,6 +1,8 @@
 # Covid Tracker
 * This project was created using React and Redux, it allows you to keep track of the covid-19 pandemic by country on the current date. You can check information by contry and some countries contain information for its cities. The App contain a easy way to find a country with a search input, it;s a single page aplication that has 2 page components routed by the main App component. The app desing is ment for mobile devices only.
 
+[Video presentation](https://www.loom.com/share/9132da9a1ac947c69daf4fb74e0d36ae)
+
 Designed by: [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
 
 Flags were took from website [https://www.worldometers.info](https://www.worldometers.info)
