@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import style from './item.module.css';
-import flagLink from '../countries';
+import flagLink from '../pages/countries';
 
 const Item = (props) => {
   const { country, index } = props;

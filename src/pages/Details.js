@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import style from './details.module.css';
-import countryLink from '../countries';
+import countryLink from './countries';
 
 const Details = () => {
   const { id } = useParams();
